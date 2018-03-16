@@ -11,6 +11,6 @@ use Leogout\Bundle\SeoBundle\Seo\ImageSeoInterface;
  *
  * @author: leogout
  */
-interface OgSeoInterface extends TitleSeoInterface, DescriptionSeoInterface, ImageSeoInterface
+interface OgSeoInterface extends TitleSeoInterface, DescriptionSeoInterface, ImageSeoInterface, UrlSeoInterface
 {
 }

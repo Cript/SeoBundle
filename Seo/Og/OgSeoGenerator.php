@@ -128,6 +128,9 @@ class OgSeoGenerator extends AbstractSeoGenerator
         if ($resource instanceof ImageSeoInterface) {
             $this->setImage($resource->getSeoImage());
         }
+        if ($resource instanceof UrlSeoInterface) {
+            $this->setUrl($resource->getUrl());
+        }
 
         return $this;
     }
